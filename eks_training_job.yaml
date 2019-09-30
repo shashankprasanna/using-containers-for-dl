@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: eks-training-job
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+       - name: keras-example
+         image: 453691756499.dkr.ecr.us-west-2.amazonaws.com/dl-webinar-repo:latest
+         resources:
+          limits:
+           nvidia.com/gpu: 1
+
