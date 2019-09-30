@@ -2,6 +2,6 @@ This repository contains code supporting my AWS Tech Talk titled: Using Containe
 https://pages.awscloud.com/AWS-Online-Tech-Talks_2019_0914-MCL.html
 
 
-Youtube: link tbd
+Youtube: https://www.youtube.com/watch?v=wbDVGAbd_dM
 
 
